@@ -1,6 +1,6 @@
 # Project 3 - Ames Housing Data and Kaggle Challenges
 
-Due Date: INSERT HERE
+Due Date: November 8, 2017
 
 Welcome to Project 3! In this project, we are hoping to use this project to give you a chance to practice two important skills:
 

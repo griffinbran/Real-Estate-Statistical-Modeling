@@ -62,8 +62,8 @@ Score | Expectations
 
 For Project 3 the evaluation categories are as follows:
 
-- Organization:	Clearly commented, annotated and sectioned Jupyter notebook or Python script. Comments and annotations add clarity, explanation and intent to the work. Notebook is well-structured with title, author and sections. Assumptions are stated and justified.
-- Exploratory Data Analysis: A thorough exploratory data analysis has been conducted. Descriptive statistics, univariate and bivariate analysis, and plotting are skillfully used to explore connections across the dataset between features and targets. 
-- Modeling Process: Skillful and correct use of cross-validation, grid search, and goodness-of-fit metrics to evaluate candidate models. Assumptions and decisions in the modeling process are stated and justified. Use of correct modeling techniques in each challenge. Data is reproducibly and reliably transformed between training and test datasets.
-- Regression Challenge Submission: Student has made at least one successful submission to the [DSI-EAST-1 Regression Challenge](https://www.kaggle.com/c/dsi-east-1-regression)
-- Classification Challenge Submission: Student has made at least one successful submission to the [DSI-EAST-1 Classification Challenge](https://www.kaggle.com/c/dsi-east-1-classification)
+- **Organization**:	Clearly commented, annotated and sectioned Jupyter notebook or Python script. Comments and annotations add clarity, explanation and intent to the work. Notebook is well-structured with title, author and sections. Assumptions are stated and justified.
+- **Exploratory Data Analysis**: A thorough exploratory data analysis has been conducted. Descriptive statistics, univariate and bivariate analysis, and plotting are skillfully used to explore connections across the dataset between features and targets. 
+- **Modeling Process**: Skillful and correct use of cross-validation, grid search, and goodness-of-fit metrics to evaluate candidate models. Assumptions and decisions in the modeling process are stated and justified. Use of correct modeling techniques in each challenge. Data is reproducibly and reliably transformed between training and test datasets.
+- **Regression Challenge Submission**: Student has made at least one successful submission to the [DSI-EAST-1 Regression Challenge](https://www.kaggle.com/c/dsi-east-1-regression)
+- **Classification Challenge Submission**: Student has made at least one successful submission to the [DSI-EAST-1 Classification Challenge](https://www.kaggle.com/c/dsi-east-1-classification)

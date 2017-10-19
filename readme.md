@@ -47,6 +47,7 @@ We expect the following to be submitted by end of day on the due date.
 1. Your code for the regression and classification models, including your exploratory data analysis, submitted via pull request to this repository.
 2. At least one successful prediction submission on [DSI-EAST-1 Regression Challenge](https://www.kaggle.com/c/dsi-east-1-regression) --  you should see your name in the "Leaderboard" tab.
 3. At least one successful prediction submission on [DSI-EAST-1 Classification Challenge](https://www.kaggle.com/c/dsi-east-1-classification) -- you should see your name in the "Leaderboard" tab.
+4. Check the Project Feedback + Evaluation section to ensure that you know what will factor into the evaluation of your work.
 
 ## Project Feedback + Evaluation
 

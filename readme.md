@@ -25,8 +25,8 @@ Secondly, we are hosting two competitions on Kaggle (one for the regression and 
 Before you begin working on this project, please do the following:
 
 1. Sign up for an account on [Kaggle](https://www.kaggle.com/)
-2. Review the material on the [DSI-EAST-1 Regression Challenge](https://www.kaggle.com/c/dsi-east-1-regression)
-3. Review the material on the [DSI-EAST-1 Classification Challenge](https://www.kaggle.com/c/dsi-east-1-classification)
+2. Review the material on the [DSI-EAST-1 Regression Challenge](https://www.kaggle.com/c/dsi-east-1-project-3-regression)
+3. Review the material on the [DSI-EAST-1 Classification Challenge](https://www.kaggle.com/c/dsi-east-1-project-3-classification)
 4. Click these links ([Regression Challenge Sign Up](https://www.kaggle.com/t/6387caa2c224456ebf10ca6f646db2a5) and [Classification Challenge Sign Up](https://www.kaggle.com/t/8967ec87473240e993818f4c12133025)) to **join** the competition (otherwise you will not be able to make submissions!)
 ## The Modeling Process
 

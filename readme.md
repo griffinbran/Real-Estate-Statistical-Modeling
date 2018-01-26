@@ -46,9 +46,9 @@ Before you begin working on this project, please do the following:
 We expect the following to be submitted by end of day on the due date.
 
 1. Your code for the regression and classification models, including your exploratory data analysis. Add your (well organized!) notebooks to this repository and submit a pull request.
-2. At least one successful prediction submission on [DSI-WEST-3 Regression Challenge](https://www.kaggle.com/c/dsi-west-3-project-2-regression-challenge) --  you should see your name in the "Leaderboard" tab.
-3. At least one successful prediction submission on [DSI-WEST-3 Classification Challenge](https://www.kaggle.com/c/dsi-west-3-project-2-classification-challenge) -- you should see your name in the "Leaderboard" tab.
-4. Check the Project Feedback + Evaluation section to ensure that you know what will factor into the evaluation of your work.
+2. At least one successful prediction submission on [DSI-WEST-3 Regression Challenge](https://www.kaggle.com/c/dsi-west-3-project-2-regression-challenge) --  you should see your name in the "[Leaderboard](https://www.kaggle.com/c/dsi-west-3-project-2-regression-challenge/leaderboard)" tab.
+3. At least one successful prediction submission on [DSI-WEST-3 Classification Challenge](https://www.kaggle.com/c/dsi-west-3-project-2-classification-challenge) -- you should see your name in the "[Leaderboard](https://www.kaggle.com/c/dsi-west-3-project-2-classification-challenge/leaderboard)" tab.
+4. Check the Project Feedback + Evaluation section (below) to ensure that you know what will factor into the evaluation of your work.
 
 ## Project Feedback + Evaluation
 

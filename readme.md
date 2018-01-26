@@ -1,6 +1,6 @@
 # Project 2 - Ames Housing Data and Kaggle Challenges
 
-Due Date: February 14, 2018
+Due Date: **February 14, 2018**
 
 Welcome to Project 2! In this project, we are hoping to use this project to give you a chance to practice two important skills:
 

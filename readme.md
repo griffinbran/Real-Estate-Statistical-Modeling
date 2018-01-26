@@ -25,9 +25,10 @@ Secondly, we are hosting two competitions on Kaggle (one for the regression and 
 Before you begin working on this project, please do the following:
 
 1. Sign up for an account on [Kaggle](https://www.kaggle.com/)
-2. Review the material on the [DSI-WEST-3 Regression Challenge](https://www.kaggle.com/c/dsi-west-3-project-2-regression-challenge)
-3. Review the material on the [DSI-WEST-3 Classification Challenge](https://www.kaggle.com/c/dsi-west-3-project-2-classification-challenge)
-4. **IMPORTANT**: Click these links ([Regression Challenge Sign Up](https://www.kaggle.com/t/164b13cdce58488b8963324d2eec93ef) and [Classification Challenge Sign Up](https://www.kaggle.com/t/8fee017315834521bea29854e9a200b9)) to **join** the competition (otherwise you will not be able to make submissions!)
+2. **IMPORTANT**: Click these links ([Regression Challenge Sign Up](https://www.kaggle.com/t/164b13cdce58488b8963324d2eec93ef) and [Classification Challenge Sign Up](https://www.kaggle.com/t/8fee017315834521bea29854e9a200b9)) to **join** the competition (otherwise you will not be able to make submissions!)
+3. Review the material on the [DSI-WEST-3 Regression Challenge](https://www.kaggle.com/c/dsi-west-3-project-2-regression-challenge)
+4. Review the material on the [DSI-WEST-3 Classification Challenge](https://www.kaggle.com/c/dsi-west-3-project-2-classification-challenge)
+
 ## The Modeling Process
 
 1. The train and test datasets for both challenges are the **same**, with the exception of the target that you are trying to predict.

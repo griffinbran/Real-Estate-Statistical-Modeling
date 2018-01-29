@@ -2,7 +2,8 @@
 
 Due Date: **February 14, 2018**
 
-Welcome to Project 2! In this project, we are hoping to use this project to give you a chance to practice two important skills:
+Welcome to Project 2! It's time to start modeling. The goal for this project is
+two-fold:
 
 1. Creating and iteratively refining regression and classification models
 2. Using [Kaggle](https://www.kaggle.com/) to practice the modeling process

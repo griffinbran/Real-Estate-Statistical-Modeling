@@ -2,8 +2,7 @@
 
 Due Date: **May 18, 2018**
 
-Welcome to Project 2! It's time to start modeling. The goal for this project is
-two-fold:
+Welcome to Project 2! It's time to start modeling. 
 
 1. Creating and iteratively refining a regression model
 2. Using [Kaggle](https://www.kaggle.com/) to practice the modeling process
@@ -41,7 +40,7 @@ Before you begin working on this project, please do the following:
 
 We expect the following to be submitted by end of day on the due date.
 
-1. Your code for the regression and classification models, including your exploratory data analysis. Add your (well organized!) notebooks to this repository and submit a pull request.
+1. Your code for the regression model, including your exploratory data analysis. Add your (well organized!) notebooks to this repository and submit a pull request.
 2. At least one successful prediction submission on [DSI-US-4 Regression Challenge](https://www.kaggle.com/c/dsi-us-4-project-2-regression-challenge) --  you should see your name in the "[Leaderboard](https://www.kaggle.com/c/dsi-us-4-project-2-regression-challenge/leaderboard)" tab.
 3. Check the Project Feedback + Evaluation section (below) to ensure that you know what will factor into the evaluation of your work.
 

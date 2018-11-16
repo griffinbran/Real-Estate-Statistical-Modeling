@@ -1,11 +1,13 @@
 # Project 2 - Ames Housing Data and Kaggle Challenge
 
-Due Date: **TODO: ADD DUE DATE**
+# UPDATE ALL KAGGLE LINKS
 
 Welcome to Project 2! It's time to start modeling.
 
+**Primary Learning Objectives:**
 1. Creating and iteratively refining a regression model
 2. Using [Kaggle](https://www.kaggle.com/) to practice the modeling process
+3. Providing business insights through reporting and presentation.
 
 You are tasked with creating a regression model based on the Ames Housing Dataset. This model will predict the price of a house at sale.
 
@@ -16,6 +18,8 @@ Secondly, we are hosting a competition on Kaggle to give you the opportunity to 
 - Refining models over time
 - Use of train-test split, cross-validation, and data with unknown values for the target to simulate the modeling process
 - The use of Kaggle as a place to practice data science
+
+As always, you will be submitting a technical report and a presentation. **You may find that the best model for Kaggle is not the best model to address your data science problem.** 
 
 ## Set-up
 
@@ -35,89 +39,139 @@ Before you begin working on this project, please do the following:
     - code that reproducibly and consistently applies feature transformation (such as the preprocessing library)
 3. Predict the values for your target column in the test dataset and submit your predictions to Kaggle to see how your model does against unknown data.
     - **Note**: Kaggle expects to see your submissions in a specific format. Check the challenge's page to make sure you are formatting your files correctly!
+4. Evaluate your models!
+    - consider your evaluation metrics
+    - consider your baseline score
+    - how can your model be used for inference?
+    - why do you believe your model will generalize to new data?
 
-## Submission Checklist
+## Submission
 
-We expect the following to be submitted by end of day on the due date.
+**Materials must be submitted by the beginning of class on December 7.**
 
-1. Your code for the regression model, including your exploratory data analysis. Add your (well organized!) notebooks to this repository and submit a pull request.
-2. At least one successful prediction submission on [DSI-US-4 Regression Challenge](https://www.kaggle.com/c/dsi-us-4-project-2-regression-challenge) --  you should see your name in the "[Leaderboard](https://www.kaggle.com/c/dsi-us-4-project-2-regression-challenge/leaderboard)" tab.
-3. Check the Project Feedback + Evaluation section (below) to ensure that you know what will factor into the evaluation of your work.
+Your technical report will be hosted on Github Enterprise. Make sure it includes:
 
-## Project Feedback + Evaluation
+- A README.md (that isn't this file)
+- Jupyter notebook(s) with your analysis and models (renamed to describe your project)
+- At least one successful prediction submission on [DSI-US-6 Regression Challenge](https://www.kaggle.com/c/dsi-us-4-project-2-regression-challenge) --  you should see your name in the "[Leaderboard](https://www.kaggle.com/c/dsi-us-4-project-2-regression-challenge/leaderboard)" tab.
+- Data files
+- Presentation slides
+- Any other necessary files (images, etc.)
 
-For all projects, students will be evaluated on a simple 4 point scale (0-3 inclusive). Instructors will use this rubric when scoring student performance on each of the core project requirements:
+**Check with your local instructor for how they would like you to submit your repo for review.**
 
-Score | Expectations
------ | ------------
-**0** | _Does not meet expectations. Try again._
-**1** | _Approaching expectations. Getting there..._
-**2** | _Meets expecations. Great job._
-**3** | _Surpasses expectations. Brilliant!_
+---
 
-### Rubric
+## Presentation Structure
 
-Your final assessment ("grade" if you will) will be calculated based on a topical rubric (see below).  For each category, you will receive a score of 0-3.  From the rubric you can see descriptions of each score and what is needed to attain those scores.
+- **Must be within time limit established by local instructor.**
+- Use Google Slides or some other visual aid (Keynote, Powerpoint, etc).
+- Consider the audience. **Check with your local instructor for direction**.
+- Start with the **data science problem**.
+- Use visuals that are appropriately scaled and interpretable.
+- Talk about your procedure/methodology (high level).
+- Talk about your primary findings.
+- Make sure you provide **clear recommendations** that follow logically from your analyses and narrative and answer your data science problem.
 
-For Project 2 the evaluation categories are as follows:
-- [Organization](#organization)
-- [Presentation](#presentation)
-- [Data Structures](#data-structures)
-- [Python Syntax and Control Flow](#python-syntax-and-control-flow)
-- [Modeling](#modeling)
+Be sure to rehearse and time your presentation before class.
 
-#### Organization
+---
 
-Clearly commented, annotated and sectioned Jupyter notebook or Python script.  Comments and annotations add clarity, explanation and intent to the work.  Notebook is well-structured with title, author and sections. Assumptions are stated and justified.
+## Rubric
+Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
 
+**Scores will be out of 27 points based on the 9 items in the rubric.** <br>
+*3 points per section*<br>
 
-| Score | Status                     | Examples                                                                                                                                                                                                                                         |
-|-------|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0     | Does not Meet Expectations | 1. Comments and annotations are **absent** <br> 2. There is no clear notebook structure <br> 3. Assumptions are not stated                                                                                                                                       |
-| 1     | Approaching Expectations   | 1. Comments are present but generally unclear or uninformative (e.g., comments do not clarify, explain or interpret the code) <br> 2. There are some structural components like section/subsection headings <br> 3. Assumptions are stated but not justified |
-| 2     | Meets Expectations         | 1. Comments and annotations are clear and informative <br> 2. There is a clear structure to the notebook with title and appropriate sectioning <br> 3. Assumptions are both stated and justified                                                             |
-| 3     | Exceeds Expectations       | 1. Comments and annotations are clear, informative and insightful <br> 2. There is a helpful and cogent structure to the notebook that clarifies the analysis flow <br> 3. Assumptions are stated, justified and backed by evidence or insight               |
+| Score | Interpretation |
+| --- | --- |
+| **0** | *Project fails to meet the outlined expectations; many major issues exist.* |
+| **1** | *Project close to meeting expectations; many minor issues or a few major issues.* |
+| **2** | *Project meets expectations; few (and relatively minor) mistakes.* |
+| **3** | *Project demonstrates a thorough understanding of all of the considerations outlined.* |
 
-#### Presentation
+### The Data Science Process
 
-The goal, methodology and results of your work are presented in a clear, concise and thorough manner.  The presentation is appropriate for the specified audience, and includes relevant and enlightening visual aides as appropriate.
+**Problem Statement**
+- Is it clear what the student plans to do?
+- What type of model will be developed?
+- How will success be evaluated?
+- Is the scope of the project appropriate?
+- Is it clear who cares about this or why this is important to investigate?
+- Does the student consider the audience and the primary and secondary stakeholders?
 
-| Score | Status | Examples |
-|-------|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 | Does not Meet Expectations | 1. The problem was not well explained or ambiguous. <br> 2. The level of technicality was far above or below the target audience. <br> 3. The presentation went substantially over or under time. <br> 4. The speaker's voice was difficult to hear of unclear. <br> 5. The presentation visuals did not seem to support the talk. |
-| 1 | Approaching Expectations | 1. The problem was stated but was not 100% clear. <br> 2. The level of technicality was was good at times, but too low or too high at other times given the target audience. <br> 3. The presentation was given went slightly over or under time. <br> 4. The speaker's voice was at times difficult to understand. <br> 5. The presentation visuals were generally helpful, but some of them were either too complex or disconnected from the narrative. |
-| 2 | Meets Expectations | 1. The problem was framed appropriately for the audience. <br> 2. The level of technicality was appropriate to the target audience. <br> 3. The presentation was given within the allocated timeframe. <br> 4. The speaker's voice had volume and clarity. <br> 5. The presentation visuals were helpful and supportive. |
-| 3 | Exceeds Expectations | 1. The problem was expertly stated and compelling. <br> 2. The level of technicality was perfect for the target audience. <br> 3. The presentation was given within the allocated timeframe and paced evenly throughout. <br> 4. The speaker's voice was clear, understandable and consistent. <br> 5. The presentation visuals provided distinct insight, supported the speaker from the background, and were not distracting. |
+**Data Cleaning and EDA**
+- Are missing values imputed appropriately?
+- Are distributions examined and described?
+- Are outliers identified and addressed?
+- Are appropriate summary statistics provided?
+- Are steps taken during data cleaning and EDA framed appropriately?
+- Does the student address whether or not they are likely to be able to answer their problem statement with the provided data given what they've discovered during EDA?
 
-#### Data Structures
+**Preprocessing and Modeling**
+- Are categorical variables one-hot encoded?
+- Does the student investigate or manufacture features with linear relationships to the target?
+- Have the data been scaled appropriately?
+- Does the student properly split and/or sample the data for validation/training purposes?
+- Does the student utilize feature selection to remove noisy or multi-collinear features?
+- Does the student test a evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** linear regression, lasso, and ridge)?
+- Does the student defend their choice of production model relevant to the data at hand and the problem?
+- Does the student explain how the model works and evaluate its performance successes/downfalls?
 
-Python data structures including lists, dictionaries and imported structures (e.g. DataFrames), are created and used correctly.  The appropriate data structures are used in context.  Data structures are created and accessed using appropriate mechanisms such as comprehensions, slices, filters and copies.
+**Evaluation and Conceptual Understanding**
+- Does the student accurately identify and explain the baseline score?
+- Does the student select and use metrics relevant to the problem objective? 
+- Is more than one metric utilized in order to better assess performance?
+- Does the student interpret the results of their model for purposes of inference?
+- Is domain knowledge demonstrated when interpreting results?
+- Does the student provide appropriate interpretation with regards to descriptive and inferential statistics? 
 
-| Score | Status | Examples |
-|-------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 | Does not Meet Expectations | 1. Appropriate data structures are not identified or implemented <br> 2. Data structures are not created appropriately <br> 3. Data structures are not accessed or used effectively |
-| 1 | Approaching Expectations | 1. Contextually appropriate data structures are identified in some but not all instances <br> 2. Data structures are created successfully but lacked efficiency or generality (e.g., structures were hard-coded with values that limits generalization; brute-force vs automatic creation/population of data) <br> 3. Data structures are accessed or used but best practices are not adopted |
-| 2 | Meets Expectations | 1. Contextually appropriate data structures are identified and implemented given the context of the problem <br> 2. Data structures are created in an effective manner <br> 3. Data structures are accessed and used following general programming and Pythonic best practices |
-| 3 | Exceeds Expectations | 1. Use or creation of data structures is clever and insightful <br> 2. Data structures are created in a way that reveals significant Pythonic understanding <br> 3. Data structures are used or applied in clever or insightful ways |
+**Conclusion and Recommendations**
+- Does the student provide appropriate context to connect individual steps back to the overall project?
+- Is it clear how the final recommendations were reached?
+- Are the conclusions/recommendations clearly stated?
+- Does the conclusion answer the original problem statement?
+- Does the student address how findings of this research can be applied for the benefit of stakeholders?
+- Are future steps to move the project forward identified?
 
-#### Python Syntax and Control Flow
+### Organization and Professionalism
 
-Python code is written correctly and follows standard style guidelines and best practices.  There are no runtime errors.  The code is expressive while being reasonably concise.
+**Project Organization**
+- Are modules imported correctly (using appropriate aliases)?
+- Are data imported/saved using relative paths?
+- Does the README provide a good executive summary of the project?
+- Is markdown formatting used appropriately to structure notebooks?
+- Are there an appropriate amount of comments to support the code?
+- Are files & directories organized correctly?
+- Are there unnecessary files included?
+- Do files and directories have well-structured, appropriate, consistent names?
 
-| Score | Status | Examples |
-|-------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 | Does not Meet Expectations | 1. Code has systemic syntactical issues <br> 2. Code generates incorrect results <br> 3. Code is disorganized and needlessly difficult |
-| 1 | Approaching Expectations | 1. Code is generally correct with some runtime errors <br> 2. Code logic is generally correct but does not produce the desired outcome <br> 3. Code is somewhat organized and follows some stylistic conventions |
-| 2 | Meets Expectations | 1. Code is syntactically correct (no runtime errors) <br> 2. Code generates desired results (logically correct) <br> 3. Code follows general best practices and style guidelines |
-| 3 | Exceeds Expectations | 1. Code adopts clever or advanced syntax <br> 2. Code generates desired results in an easily consumable manner (e.g., results are written to screen, file, pipeline, etc, as appropriate within the flow of the analysis) <br> 3. Code is exceptionally expressive, well formed and organized |
+**Visualizations**
+- Are sufficient visualizations provided?
+- Do plots accurately demonstrate valid relationships?
+- Are plots labeled properly?
+- Are plots interpreted appropriately?
+- Are plots formatted and scaled appropriately for inclusion in a notebook-based technical report?
 
-#### Modeling
+**Python Syntax and Control Flow**
+- Is care taken to write human readable code?
+- Is the code syntactically correct (no runtime errors)?
+- Does the code generate desired results (logically correct)?
+- Does the code follows general best practices and style guidelines?
+- Are Pandas functions used appropriately?
+- Are sklearn methods used appropriately?
 
-Data is appropriately prepared for modeling.  Model choice matches the context of the data and the analysis.  Model hyperparameters are optimized.  Model evaluation is robust.  Model results are extracted and explained either visually, numerically or narratively.
+**Presentation**
+- Is the problem statement clearly presented?
+- Does a strong narrative run through the presentation building toward a final conclusion?
+- Are the conclusions/recommendations clearly stated?
+- Is the level of technicality appropriate for the intended audience?
+- Is the student substantially over or under time?
+- Does the student appropriately pace their presentation?
+- Does the student deliver their message with clarity and volume?
+- Are appropriate visualizations generated for the intended audience?
+- Are visualizations necessary and useful for supporting conclusions/explaining findings?
 
-| Score | Status | Examples |
-|-------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 | Does not Meet Expectations | 1. Data is not prepared for modeling.<br>2. Models are not implemented or not implemented fully.<br>3. Model hyperparameters are not considered.<br>4. Model evaluation is not performed.<br>5. Model results are unavailable or not extracted. |
-| 1 | Approaching Expectations | 1. Data has some null values, inappropriate types and/or improper handling of categorical labels.<br>2. Model choice is questionable given the objective of the analysis.<br>3. Model hyperparameters are insufficiently or not optimized.<br>4. Model evaluation is performed but the evaluation is not generalizable.<br>5. Model results are extracted but not explained or interpreted. |
-| 2 | Meets Expectations | 1. Data is free from nulls and correctly typed for the given model.<br>2. Model choice is appropriate to the analysis.<br>3. Model hyperparameters are optimally selected.<br>4. Model evaluation reflects generalizeable performance.<br>5. Model results are extracted and explained either visually, numerically or naratively. |
-| 3 | Exceeds Expectations | 1. Data is pristinely prepared with creative or useful feature engineering.<br>2. Model selection is justified and demonstrates an awareness of tradeoffs.<br>3. Model hyperparameters are optimized and the optimization is demonstrated/justified.<br>4. Model evaluation reflects generalizable performance and is interpreted in the context of the analysis.<br>5. Model results are explained, interpreted and related to the overarching analysis goals. |
+### REMEMBER:
+
+This is a learning environment and you are encouraged to try new things, even if they end up failing. While this rubric outlines what we look for in a _good_ project, it is up to you to go above and beyond to create a _great_ project. **Learn from your failures and you'll be prepared to succeed in the workforce**.

@@ -1,7 +1,5 @@
 # Project 2 - Ames Housing Data and Kaggle Challenge
 
-# UPDATE ALL KAGGLE LINKS
-
 Welcome to Project 2! It's time to start modeling.
 
 **Primary Learning Objectives:**
@@ -19,7 +17,7 @@ Secondly, we are hosting a competition on Kaggle to give you the opportunity to 
 - Use of train-test split, cross-validation, and data with unknown values for the target to simulate the modeling process
 - The use of Kaggle as a place to practice data science
 
-As always, you will be submitting a technical report and a presentation. **You may find that the best model for Kaggle is not the best model to address your data science problem.** 
+As always, you will be submitting a technical report and a presentation. **You may find that the best model for Kaggle is not the best model to address your data science problem.**
 
 ## Set-up
 
@@ -27,7 +25,7 @@ Before you begin working on this project, please do the following:
 
 1. Sign up for an account on [Kaggle](https://www.kaggle.com/)
 2. **IMPORTANT**: Click this link ([Regression Challenge Sign Up](https://www.kaggle.com/t/ef1b2451fd2c4efc9292b5d5821c1c7e)) to **join** the competition (otherwise you will not be able to make submissions!)
-3. Review the material on the [DSI-US-4 Regression Challenge](https://www.kaggle.com/c/dsi-us-4-project-2-regression-challenge)
+3. Review the material on the [DSI-US-6 Regression Challenge](https://www.kaggle.com/c/dsi-us-4-project-2-regression-challenge)
 
 ## The Modeling Process
 
@@ -38,7 +36,8 @@ Before you begin working on this project, please do the following:
     - strong exploratory data analysis to question correlation and relationship across predictive variables
     - code that reproducibly and consistently applies feature transformation (such as the preprocessing library)
 3. Predict the values for your target column in the test dataset and submit your predictions to Kaggle to see how your model does against unknown data.
-    - **Note**: Kaggle expects to see your submissions in a specific format. Check the challenge's page to make sure you are formatting your files correctly!
+    - **Note**: Kaggle expects to see your submissions in a specific format. Check the challenge's page to make sure you are formatting your CSVs correctly!
+    - **You are limited to models you've learned in class**. In other words, you cannot use XGBoost, Neural Networks or any other advanced model for this project.
 4. Evaluate your models!
     - consider your evaluation metrics
     - consider your baseline score
@@ -114,17 +113,17 @@ Your local instructor will evaluate your project (for the most part) using the f
 - Have the data been scaled appropriately?
 - Does the student properly split and/or sample the data for validation/training purposes?
 - Does the student utilize feature selection to remove noisy or multi-collinear features?
-- Does the student test a evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** linear regression, lasso, and ridge)?
+- Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** linear regression, lasso, and ridge)?
 - Does the student defend their choice of production model relevant to the data at hand and the problem?
 - Does the student explain how the model works and evaluate its performance successes/downfalls?
 
 **Evaluation and Conceptual Understanding**
 - Does the student accurately identify and explain the baseline score?
-- Does the student select and use metrics relevant to the problem objective? 
+- Does the student select and use metrics relevant to the problem objective?
 - Is more than one metric utilized in order to better assess performance?
 - Does the student interpret the results of their model for purposes of inference?
 - Is domain knowledge demonstrated when interpreting results?
-- Does the student provide appropriate interpretation with regards to descriptive and inferential statistics? 
+- Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?
 
 **Conclusion and Recommendations**
 - Does the student provide appropriate context to connect individual steps back to the overall project?
@@ -159,7 +158,7 @@ Your local instructor will evaluate your project (for the most part) using the f
 - Does the code generate desired results (logically correct)?
 - Does the code follows general best practices and style guidelines?
 - Are Pandas functions used appropriately?
-- Are sklearn methods used appropriately?
+- Are `sklearn` methods used appropriately?
 
 **Presentation**
 - Is the problem statement clearly presented?

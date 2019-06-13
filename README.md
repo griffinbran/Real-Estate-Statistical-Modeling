@@ -174,6 +174,10 @@ Your local instructor will evaluate your project (for the most part) using the f
 - Are appropriate visualizations generated for the intended audience?
 - Are visualizations necessary and useful for supporting conclusions/explaining findings?
 
+In order to pass the project, students must earn a minimum score of 1 for each category.
+- Earning below a 1 in one or more of the above categories would result in a failing project.
+- While a minimum of 1 in each category is the required threshold for graduation, students should aim to earn at least an average of 1.5 across each category. An average score below 1.5, while it may be passing, means students may want to solicit specific feedback in order to significantly improve the project before showcasing it as part of a portfolio or the job search.
+
 ### REMEMBER:
 
-This is a learning environment and you are encouraged to try new things, even if they end up failing. While this rubric outlines what we look for in a _good_ project, it is up to you to go above and beyond to create a _great_ project. **Learn from your failures and you'll be prepared to succeed in the workforce**.
+This is a learning environment and you are encouraged to try new things, even if they don't work out as well as you planned! While this rubric outlines what we look for in a _good_ project, it is up to you to go above and beyond to create a _great_ project. **Learn from your failures and you'll be prepared to succeed in the workforce**.

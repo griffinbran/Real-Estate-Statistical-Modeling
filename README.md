@@ -85,10 +85,10 @@ Your local instructor will evaluate your project (for the most part) using the f
 
 | Score | Interpretation |
 | --- | --- |
-| **0** | *Project fails to meet the outlined expectations; many major issues exist.* |
-| **1** | *Project close to meeting expectations; many minor issues or a few major issues.* |
-| **2** | *Project meets expectations; few (and relatively minor) mistakes.* |
-| **3** | *Project demonstrates a thorough understanding of all of the considerations outlined.* |
+| **0** | *Project fails to meet the minimum requirements for this item.* |
+| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
+| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
+| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
 
 ### The Data Science Process
 

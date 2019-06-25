@@ -47,7 +47,7 @@ Before you begin working on this project, please do the following:
 
 ## Submission
 
-Materials must be submitted by the beginning of class on **Monday, July 1**.
+Materials must be submitted by the beginning of class on **Friday, June 28**.
 
 The last day for the Kaggle competition will be **Friday, June 28**.
 

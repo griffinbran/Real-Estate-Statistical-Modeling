@@ -47,7 +47,9 @@ Before you begin working on this project, please do the following:
 
 ## Submission
 
-Materials must be submitted by the end of **Friday, July 3, 2020**.
+Materials must be submitted by the beginning of class on **Friday, April 10**.
+
+The last day for the Kaggle competition will be **Friday, April 10**.
 
 Your technical report will be hosted on Github Enterprise. Make sure it includes:
 

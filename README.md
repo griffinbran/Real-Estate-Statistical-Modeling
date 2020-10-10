@@ -2,16 +2,11 @@
 
 Welcome to Project 2! It's time to start modeling.
 
+**Target Audience:** A tech savvy daughter of a real estate tycoon has recently inherited her late mother’s assets. She hired me to run an OLS regression analysis to help her maximize profit while selling her homes in Iowa as she heads to Florida for early retirement. Yay.
+
 **Problem Statement:**
-Does location make the biggest influence on the final sale price of a home? This investigation is for homeowners looking to make the most out of selling their home.
-1. Creating and iteratively refining a regression model
 
-
-You are tasked with creating a regression model based on the Ames Housing Dataset. This model will predict the price of a house at sale.
-
-3
-
-As always, you will be submitting a technical report and a presentation. **You may find that the best model for Kaggle is not the best model to address your data science problem.**
+    -Are location and size the most important factors in the final sale price of a home?
 
 ---
 
@@ -51,18 +46,31 @@ As always, you will be submitting a technical report and a presentation. **You m
 |**Year Built**|*integer*|2006-10<br>Ames, Iowa<br>Assessor’s Office|Discrete, range: 1872 - 2010|Original Construction Date|
 |**Year Remod/Add**|*integer*|2006-10<br>Ames, Iowa<br>Assessor’s Office|Discrete, range: 1950 - 2010|Remodel date or construction date if no remodel or additions|
 
-## Set-Up
-
-Before you begin working on this project, please do the following:
-
-1. Sign up for an account on [Kaggle](https://www.kaggle.com/)
-2. **IMPORTANT**: Click this link ([Regression Challenge Sign Up](https://www.kaggle.com/t/9f7869156c044c818a506803ad32a535)) to **join** the competition (otherwise you will not be able to make submissions!)
-3. Review the material on the [DSI-US-13 Regression Challenge](https://www.kaggle.com/c/dsi-us-13-project-2-regression-challenge)
-4. Review the [data description](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt).
-
 
 
 ---
 
 ## Notebook 01: Data Cleaning and EDA
 
+**Notes about the data:**
+    -Time was spent searching for null values, dropping outliers, and recognizing the simplest approach was a first model with only integer features.
+
+    **Select Categorical Features from Ames housing Data Set**
+    1. Referring to Data Library for definitions of sub-categorical features, follow best judgement for an initial prediction to beat the baseline Null.
+    2. Guess and check with boxplots in Notebook 02, returning back to feature selection to adjust paramaters.
+    3. I chose the following values initially based on what made sense to me, then following feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
+---
+
+## Notebook 02: Pre-Processing and Feature Engineering
+***Pre-processing***
+Set-up Models
+One-hot encode categorical variables.
+Train/test split your data.
+Scale your data.
+Consider using automated feature selection.
+---
+
+## Notebook 03: Model Benchmarks and Preparation
+---
+
+## Notebook 04: Model Tuning, Scoring, and Assessment

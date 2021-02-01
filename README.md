@@ -1,12 +1,11 @@
-# Project 2 - Ames Housing Data and Kaggle Challenge
+# Project - Real Estate Statistical Modeling with Feature Engineering
 
-Welcome to Project 2! It's time to start modeling.
 
-**Target Audience:** A tech savvy daughter of a real estate tycoon has recently inherited her late mother’s assets. She hired me to run an OLS regression analysis to help her maximize profit while selling her homes in Iowa as she heads to Florida for early retirement. Yay.
+**Target Audience:** The tech savvy daughter of a real estate tycoon acquired property by inheritance of her late mother’s assets in Ames, Iowa. Data-driven insights were requested to make informed decisions regarding the sale of, or investment in, each property for profit maximization between the years 2006-2010.
 
 **Problem Statement:**
-
-    -Are location and size the most important factors in the final sale price of a home?
+* Are location and size the most important factors in the final sale price of a home?
+* What can a property owner do to improve home value?
 
 ---
 

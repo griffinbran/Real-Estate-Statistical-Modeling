@@ -1,22 +1,39 @@
-# Project - Real Estate Statistical Modeling with Feature Engineering
+# Real Estate Statistical Modeling with Feature Engineering
 
 
-**Target Audience:** The tech savvy daughter of a real estate tycoon acquired property by inheritance of her late mother’s assets in Ames, Iowa. Data-driven insights were requested to make informed decisions regarding the sale of, or investment in, each property for profit maximization between the years 2006-2010.
+**Problem Statement:** The tech savvy daughter of a real estate tycoon acquired property by inheritance of her late mother’s assets. Data-driven insights were requested to make informed decisions regarding the sale of, or investment in, each property to maximize profit between the years 2006-2010.
 
-**Problem Statement:**
+**Exploration of the following specific questions:**
 * Are location and size the most important factors in the final sale price of a home?
 * What can a property owner do to improve home value?
 
 ---
+### Contents
+
+* [EDA & Cleaning](#eda_and_cleaning)
+* [Preprocessing & Feature Engineering](#preprocessing_and_feature_engineering)
+* [Model Benchmarks](#model_benchmarks)
+* [Model Tuning](#model_tuning)
+* [Production Model & Insights](#production_model_and_insights)
+* [Recommendations and Next Steps](#recommendations_and_next_steps)
+* [Kaggle Submissions](#kaggle_submissions)
+* [Software Requirements](#software_requirements)
+* [Acknowledgements and Contact](#acknowledgements_and_contact)
+
+
+<a id='eda_and_cleaning'></a>
+
+---
+### EDA & Cleaning - Notebook 01
 
 ### Datasets
 
-#### Provided Data
+#### Raw Data
 
 * [`test.csv`](./data/datasets/test.csv): Ames, IA Real Estate Data 2006-2010 ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
 * [`train.csv`](./data/datasets/train.csv): Ames, IA Real Estate Data 2006-2010([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
 
-#### Additional Datasets
+#### Processed Data
 * [`clean_train.csv`](./data/datasets/test.csv): Subset of train.csv after cleaning in Notebook 01, saved for use in all notebooks.
 * [`cat_select_test_m4.csv`](./data/datasets/test.csv): Subset of data from categorical features included in Model 4, saved for Kaggle submission.
 * [`cat_select_train.csv`](./data/datasets/test.csv): Subset of data from categorical features included in Model 4, saved for Kaggle submission.
@@ -46,30 +63,66 @@
 |**Year Remod/Add**|*integer*|2006-10<br>Ames, Iowa<br>Assessor’s Office|Discrete, range: 1950 - 2010|Remodel date or construction date if no remodel or additions|
 
 
-
----
-
-## Notebook 01: Data Cleaning and EDA
-
 **Notes about the data:**
     -Time was spent searching for null values, dropping outliers, and recognizing the simplest approach was a first model with only integer features.
 
     **Select Categorical Features from Ames housing Data Set**
-    1. Referring to Data Library for definitions of sub-categorical features, follow best judgement for an initial prediction to beat the baseline Null.
-    2. Guess and check with boxplots in Notebook 02, returning back to feature selection to adjust paramaters.
-    3. I chose the following values initially based on what made sense to me, then following feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
----
+    > 1. Referring to Data Library for definitions of sub-categorical features, follow best judgement for an initial prediction to beat the baseline Null.
+    > 2. Guess and check with boxplots in Notebook 02, returning back to feature selection to adjust paramaters.
+    > 3. I chose the following values initially based on what made sense to me, then following feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
 
-## Notebook 02: Pre-Processing and Feature Engineering
+
+<a id='preprocessing_and_feature_engineering'></a>
+
+---
+### Pre-Processing and Feature Engineering - Notebook 02
+
 ***Pre-processing***
-Set-up Models
-One-hot encode categorical variables.
-Train/test split your data.
-Scale your data.
-Consider using automated feature selection.
----
+> * Set-up Models
+>* One-hot encode categorical variables
+>* Train/test split the data
+>* Scale the data
+>* Consider using automated feature selection
 
-## Notebook 03: Model Benchmarks and Preparation
----
 
-## Notebook 04: Model Tuning, Scoring, and Assessment
+<a id='model_benchmarks'></a>
+
+---
+### Model Benchmarks and Preparation - Notebook 03
+
+
+<a id='model_tuning'></a>
+
+---
+### Model Tuning & Assessment - Notebook 04
+
+
+<a id='production_model_and_insights'></a>
+
+---
+### Production Model & Insights - Notebook 05
+
+
+<a id='recommendations_and_next_steps'></a>
+
+---
+### Recommendations and Next Steps
+
+
+<a id='kaggle_submissions'></a>
+
+---
+### Kaggle Submissions - Notebook 06
+
+
+<a id='software_requirements'></a>
+
+---
+### Software Requirements
+
+
+<a id='acknowledgements_and_contact'></a>
+
+---
+### Acknowledgements and Contact
+---

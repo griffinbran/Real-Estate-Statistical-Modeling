@@ -3,14 +3,15 @@
 # Real Estate Statistical Modeling with Feature Engineering
 
 
-**Problem Statement:** The tech savvy daughter of a real estate tycoon acquired property by inheritance of her late mother’s assets. Data-driven insights were requested to make informed decisions regarding the sale of, or investment in, each property to maximize profit between the years 2006-2010.
+#### **Problem Statement:**
+> When it comes to appraisal of individual real estate, the quality and quantity of many physical property attributes must be considered for accuracy. Examples of typical questions are not limited to location, size, and the ratio of bedrooms-to-bathrooms. In this project, supervised machine learning is used for the prediction of more than 800 housing prices in Ames, Iowa from 2006-2010. It is demonstrated that the baseline null model can be improved upon by the inclusion of carefully chosen explanatory features. Furthermore, the model produces data-driven insights capable of informing decisions to optimize ROI as it relates to the sale of, or investment in, individual properties.
 
-**Exploration of the following specific questions:**
+#### **Exploration of the following specific questions:**
 * Are location and size the most important factors in the final sale price of a home?
 * What can a property owner do to improve home value?
 
 ---
-### Contents
+## Contents
 
 * [EDA & Data Cleaning](#eda_and_cleaning)
 * [Preprocessing & Feature Engineering](#preprocessing_and_feature_engineering)
@@ -26,14 +27,16 @@
 <a id='eda_and_cleaning'></a>
 
 ---
-### EDA & Data Cleaning - Notebook 01
+## EDA & Data Cleaning
 
 ### Datasets
 
 #### Raw Data
 
-* [`test.csv`](./data/datasets/test.csv): Journal of Statistics Education ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
 * [`train.csv`](./data/datasets/train.csv): Journal of Statistics Education ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
+> 2051-Entries (Homes/Properties): ~70%
+* [`test.csv`](./data/datasets/test.csv): Journal of Statistics Education ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
+> 878-Entries (Homes/Properties): ~30%
 
 #### Processed Data
 * [`clean_train.csv`](./data/datasets/test.csv): Subset of train.csv after cleaning in Notebook 01, saved for use in all notebooks.
@@ -66,7 +69,15 @@
 
 
 **Notes about the data:**
-    -Time was spent searching for null values, dropping outliers, and recognizing the simplest approach was a first model with only integer features.
+* 80-Explanatory Variables: 
+> 1. 34-Numerical
+>> * 14-Discrete: Number of types of items present, or construction/remodeling dates.
+>> * 20-Continuous: Various area dimensions of each property.
+> 2. 46-Categorical
+>> * 23-Ordinal: Various item ratings.
+>> * 23-Nominal: Various types of items/materials/conditions.
+
+* Time was spent searching for null values, dropping outliers, and recognizing the simplest approach was a first model with only integer features.
 
     **Select Categorical Features from Ames housing Data Set**
     > 1. Referring to Data Library for definitions of sub-categorical features, follow best judgement for an initial prediction to beat the baseline Null.
@@ -89,7 +100,7 @@
 <a id='preprocessing_and_feature_engineering'></a>
 
 ---
-### Pre-Processing and Feature Engineering - Notebook 02
+## Pre-Processing and Feature Engineering
 
 ***Pre-processing***
 > * Set-up Models
@@ -102,48 +113,50 @@
 <a id='model_benchmarks'></a>
 
 ---
-### Model Benchmarks and Preparation - Notebook 03
+## Model Benchmarks and Preparation
 
 
 <a id='model_tuning'></a>
 
 ---
-### Model Tuning & Assessment - Notebook 04
+## Model Tuning & Assessment
 
 
 <a id='production_model_and_insights'></a>
 
 ---
-### Production Model & Insights - Notebook 05
+## Production Model & Insights
 
 
 <a id='recommendations_and_next_steps'></a>
 
 ---
-### Recommendations and Next Steps
+## Recommendations and Next Steps
 
 
 <a id='kaggle_submissions'></a>
 
 ---
-### Kaggle Submissions - Notebook 06
+## Kaggle Submissions
 
 
 <a id='software_requirements'></a>
 
 ---
-### Software Requirements
+## Software Requirements
 
 
 <a id='acknowledgements_and_contact'></a>
 
 ---
-### Acknowledgements and Contact:
+## Acknowledgements and Contact:
 
 External Resources:
+* [`Journal of Statistics Education`] (Taylor & Francis Online): ([*source*](https://www.tandfonline.com/toc/ujse20/current))
 * [`Title`] (Platform): ([*source*](https://www.URL.com))
 
 Papers:
+* `Ames, Iowa: Alternative to the Boston Housing Data` (Journal of Statistics Education): ([*source*](https://www.tandfonline.com/doi/pdf/10.1080/10691898.2011.11889627?needAccess=true))
 * `Title` (Journal/Blog): ([*source*](https://www.URL.com))
 
 Contact:

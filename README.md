@@ -1,3 +1,5 @@
+<img src="./images/titlepic.jpg" alt="Democratizing Autonomous Driving" style="height: 310px; width:660px;"/>
+
 # Real Estate Statistical Modeling with Feature Engineering
 
 
@@ -10,7 +12,7 @@
 ---
 ### Contents
 
-* [EDA & Cleaning](#eda_and_cleaning)
+* [EDA & Data Cleaning](#eda_and_cleaning)
 * [Preprocessing & Feature Engineering](#preprocessing_and_feature_engineering)
 * [Model Benchmarks](#model_benchmarks)
 * [Model Tuning](#model_tuning)
@@ -24,14 +26,14 @@
 <a id='eda_and_cleaning'></a>
 
 ---
-### EDA & Cleaning - Notebook 01
+### EDA & Data Cleaning - Notebook 01
 
 ### Datasets
 
 #### Raw Data
 
-* [`test.csv`](./data/datasets/test.csv): Ames, IA Real Estate Data 2006-2010 ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
-* [`train.csv`](./data/datasets/train.csv): Ames, IA Real Estate Data 2006-2010([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
+* [`test.csv`](./data/datasets/test.csv): Journal of Statistics Education ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
+* [`train.csv`](./data/datasets/train.csv): Journal of Statistics Education ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
 
 #### Processed Data
 * [`clean_train.csv`](./data/datasets/test.csv): Subset of train.csv after cleaning in Notebook 01, saved for use in all notebooks.
@@ -71,6 +73,18 @@
     > 2. Guess and check with boxplots in Notebook 02, returning back to feature selection to adjust paramaters.
     > 3. I chose the following values initially based on what made sense to me, then following feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
 
+#### EDA
+- Determine _what_ missing values mean.
+- Figure out what each categorical value represents.
+- Identify outliers.
+- Consider whether discrete values are better represented as categorical or continuous. (Are relationships to the target linear?)
+
+#### Data Cleaning
+- Decide how to impute null values.
+- Decide how to handle outliers.
+- Do you want to combine any features?
+- Do you want to have interaction terms?
+- Do you want to manually drop collinear features?
 
 <a id='preprocessing_and_feature_engineering'></a>
 
@@ -124,5 +138,15 @@
 <a id='acknowledgements_and_contact'></a>
 
 ---
-### Acknowledgements and Contact
+### Acknowledgements and Contact:
+
+External Resources:
+* [`Title`] (Platform): ([*source*](https://www.URL.com))
+
+Papers:
+* `Title` (Journal/Blog): ([*source*](https://www.URL.com))
+
+Contact:
+
+> * Brandon Griffin [GitHub](https://github.com/griffinbran) | [LinkedIn](https://www.linkedin.com/in/griffinbran/) | [Twitter](https://twitter.com/GriffinBran) | [Medium](https://griffinbran.medium.com)
 ---

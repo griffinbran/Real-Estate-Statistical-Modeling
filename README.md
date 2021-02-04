@@ -1,4 +1,4 @@
-<img src="./images/titlepic.jpg" alt="Democratizing Autonomous Driving" style="height: 310px; width:660px;"/>
+<img src="images/TitlePic.jpg" alt="Ames, Iowa Housing Data" style="height: 310px; width:660px;"/>
 
 # Real Estate Statistical Modeling with Feature Engineering
 

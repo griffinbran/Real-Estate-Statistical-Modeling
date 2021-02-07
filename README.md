@@ -35,26 +35,30 @@
 
 * [Data Dictionary](#appendix)
 
-#### Raw Data
+#### Raw Training Dataset
 
 * [`train.csv`](./data/datasets/train.csv): Journal of Statistics Education ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
-> 2051-Entries (Homes/Properties): ~70%
-* [`test.csv`](./data/datasets/test.csv): Journal of Statistics Education ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
-> 878-Entries (Homes/Properties): ~30%
+> 2,051 Properties: ~70%
 
-#### Processed Data
+#### Raw Validation Dataset
+
+* [`test.csv`](./data/datasets/test.csv): Journal of Statistics Education ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
+> 878 Properties: ~30%
+
+#### Processed Datasets:
 * [`clean_train.csv`](./data/datasets/test.csv): Subset of train.csv after cleaning in Notebook 01, saved for use in all notebooks.
 * [`cat_select_test_m4.csv`](./data/datasets/test.csv): Subset of data from categorical features included in Model 4, saved for Kaggle submission.
 * [`cat_select_train.csv`](./data/datasets/test.csv): Subset of data from categorical features included in Model 4, saved for Kaggle submission.
 
 **Notes about the data:**
-* 80-Explanatory Variables: 
-> 1. 34-Numerical
->> * 14-Discrete: Number of types of items present, or construction/remodeling dates.
->> * 20-Continuous: Various area dimensions of each property.
-> 2. 46-Categorical
->> * 23-Ordinal: Various item ratings.
->> * 23-Nominal: Various types of items/materials/conditions.
+* 80 Explanatory Variables: 
+    1. 34-Numerical:
+> * 14 Discrete: Number of types of items present, or construction/remodeling dates.
+>   - Consider whether values are better represented as categorical or continuous.
+> * 20 Continuous: Various area dimensions of each property.
+    2. 46-Categorical:
+> * 23 Ordinal: Various item ratings.
+> * 23 Nominal: Various types of items/materials/conditions.
 
 * Time was spent searching for null values, dropping outliers, and recognizing the simplest approach was a first model with only integer features.
 
@@ -64,16 +68,15 @@
     > 3. I chose the following values initially based on what made sense to me, then following feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
 
 #### EDA
-- Determine _what_ missing values mean.
-- Figure out what each categorical value represents.
-- Identify outliers.
-- Consider whether discrete values are better represented as categorical or continuous. (Are relationships to the target linear?)
-
+- Missing Values:
+    - Garage Area
+- Identify Outliers:
+- Are relationships to the target linear?
 #### Data Cleaning
-- Decide how to impute null values.
-- Decide how to handle outliers.
-- Do you want to combine any features?
-- Do you want to have interaction terms?
+- Null Value Imputation:
+- Manage Outliers:
+- Combining Features:
+- Interaction Terms:
 - Do you want to manually drop collinear features?
 
 <a id='preprocessing_and_feature_engineering'></a>

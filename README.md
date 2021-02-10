@@ -141,6 +141,7 @@
 
 External Resources:
 * [`Journal of Statistics Education`] (Taylor & Francis Online): ([*source*](https://www.tandfonline.com/toc/ujse20/current))
+* [`Feature Engineering and Selection: A Practical Approach for Predictive Models`] (Online Text): ([*source*](http://www.feat.engineering/))
 * [`Title`] (Platform): ([*source*](https://www.URL.com))
 
 Papers:

@@ -9,8 +9,8 @@
 > When it comes to appraisal of individual real estate, the quality and quantity of many physical property attributes must be considered for accuracy. Examples of typical questions are not limited to location, size, and the ratio of bedrooms-to-bathrooms. In this project, supervised machine learning is used for the prediction of more than 800 housing prices in Ames, Iowa from 2006-2010. It is demonstrated that the baseline null model can be improved upon by the inclusion of carefully chosen explanatory features. Furthermore, the model produces data-driven insights capable of informing decisions to optimize ROI as it relates to the sale of, or investment in, individual properties.
 
 #### **Exploration of the following specific questions:**
-* Are location and size the most important factors in the final sale price of a home?
-* What can a property owner do to improve home value?
+* Are location and size the most important factors in predicting the selling price of individual real estate?
+* What data-driven decisions can property owners make to maximize ROI?
 
 ---
 ## Table of contents
@@ -52,13 +52,17 @@
 
 **Notes about the data:**
 * 80 Explanatory Variables: 
-    1. 34-Numerical:
-> * 14 Discrete: Number of types of items present, or construction/remodeling dates.
->   - Consider whether values are better represented as categorical or continuous.
-> * 20 Continuous: Various area dimensions of each property.
-    2. 46-Categorical:
-> * 23 Ordinal: Various item ratings.
-> * 23 Nominal: Various types of items/materials/conditions.
+    * 34 Numerical:
+> * 14 Discrete
+>   - General Description: Number of types of items present, or dates of construction/remodeling.
+>       * NOTE: Consider whether values are better represented as categorical or continuous.
+> * 20 Continuous
+>   - General Description: Various area-dimensions of each property.
+    * 46 Categorical:
+> * 23 Ordinal
+>   - General Description: Various ratings of items specific to each property.
+> * 23 Nominal
+>   - General Description: Various types of items/materials/conditions.
 
 * Time was spent searching for null values, dropping outliers, and recognizing the simplest approach was a first model with only integer features.
 

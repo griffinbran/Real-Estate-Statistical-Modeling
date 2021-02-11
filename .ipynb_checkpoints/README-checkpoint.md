@@ -3,9 +3,8 @@
 <a id='back_to_top'></a>
 
 # Real Estate Statistical Modeling with Feature Engineering
-
-#### **Problem Statement:**
-
+---
+### Problem Statement:
 > When it comes to appraisal of individual real estate, the quality and quantity of many physical property attributes must be considered for accuracy. Examples of typical questions are not limited to location, size, and the ratio of bedrooms-to-bathrooms. In this project, supervised machine learning is used for the prediction of more than 800 housing prices in Ames, Iowa from 2006-2010. It is demonstrated that the baseline null model can be improved upon by the inclusion of carefully chosen explanatory features. Furthermore, the model produces data-driven insights capable of informing decisions to optimize ROI as it relates to the sale of, or investment in, individual properties.
 
 #### **Exploration of the following specific questions:**
@@ -13,7 +12,7 @@
 * What data-driven decisions can property owners make to maximize ROI?
 
 ---
-## Table of contents
+### Table of Contents
 
 * [EDA & Data Cleaning](#eda_and_cleaning)
     * [Data Dictionary](#appendix)
@@ -184,5 +183,7 @@ Contact:
 |**Total Bsmt SF**|*integer*|2006-10<br>Ames, Iowa<br>Assessor’s Office|Continuous|Total Square-Feet of Basement Area|
 |**Year Built**|*integer*|2006-10<br>Ames, Iowa<br>Assessor’s Office|Discrete, range: 1872 - 2010|Original Construction Date|
 |**Year Remod/Add**|*integer*|2006-10<br>Ames, Iowa<br>Assessor’s Office|Discrete, range: 1950 - 2010|Remodel date or construction date if no remodel or additions|
+
+[Back to Top](#back_to_top)
 
 ---

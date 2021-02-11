@@ -142,17 +142,16 @@
 ## Acknowledgements and Contact:
 [Back to Top](#back_to_top)
 
-External Resources:
+### External Resources:
 * [`Journal of Statistics Education`] (Taylor & Francis Online): ([*source*](https://www.tandfonline.com/toc/ujse20/current))
 * [`Feature Engineering and Selection: A Practical Approach for Predictive Models`] (Online Text): ([*source*](http://www.feat.engineering/))
 * [`Title`] (Platform): ([*source*](https://www.URL.com))
 
-Papers:
+### Papers:
 * `Ames, Iowa: Alternative to the Boston Housing Data` (Journal of Statistics Education): ([*source*](https://www.tandfonline.com/doi/pdf/10.1080/10691898.2011.11889627?needAccess=true))
 * `Title` (Journal/Blog): ([*source*](https://www.URL.com))
 
-Contact:
-
+### Contact:
 > * Brandon Griffin [GitHub](https://github.com/griffinbran) | [LinkedIn](https://www.linkedin.com/in/griffinbran/) | [Twitter](https://twitter.com/GriffinBran) | [Medium](https://griffinbran.medium.com)
 
 <a id='appendix'></a>

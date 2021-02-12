@@ -69,10 +69,13 @@
     > 1. Referring to Data Library for definitions of sub-categorical features, follow best judgement for an initial prediction to beat the baseline Null.
     > 2. Guess and check with boxplots in Notebook 02, returning back to feature selection to adjust paramaters.
     > 3. I chose the following values initially based on what made sense to me, then following feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
+    
 <img src="./images/SalePriceHistLog_sns.png" alt="Distribution of the Housing Sale Price" style="height: 310px; width:660px;"/>
-    > * #### Figure 1: Distribution of the target: More results coming soon(with summaries)
-    > Left-Sale Price <br>
-    > Right-log( Sale Price )
+
+#### Figure 1: Distribution of the target: More results coming soon(with summaries)
+   > Left-Sale Price <br>
+   > Right-log( Sale Price )
+    
 # Notice how the distribution approaches Normal after a log transfromation
 #### EDA
 - Missing Values:

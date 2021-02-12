@@ -95,18 +95,21 @@
 ## Pre-Processing and Feature Engineering
 [Back to Top](#back_to_top)
 
-<img src="./images/LocationSizePrice.png" alt="Distribution of the Housing Sale Price" style="height: 310px; width:660px;"/>
+<img src="./images/LocationSizePrice_yt_bkgd.png" alt="Distribution of the Housing Sale Price" style="height: 310px; width:400px;"/>
 
-#### Figure 1: Distribution of the target: More results coming soon(with summaries)
-   > Left-Sale Price <br>
-   > Right-log( Sale Price )
+#### Figure 2: Sale Price VS: Greater Living Area, Class of Neighborhood 0, 1, or 2
+   > Green - Class 2: Mean Sale Price (All sales) < 1st Quartile (Class 2) <br>
+   > Orange - Class 1: Mean Sale Price (All sales) > 3rd Quartile (Class 1) <br>
+   > Blue - Class 0: Mean Sale Price (All sales) ~ 2nd Quartile (Class 0 or "other neighborhoods")
 
 ***Pre-processing***
 > * Set-up Models
+    > Unsupervised Clustering
 >* One-hot encode categorical variables
 >* Train/test split the data
 >* Scale the data
 >* Consider using automated feature selection
+
 
 
 <a id='model_benchmarks'></a>

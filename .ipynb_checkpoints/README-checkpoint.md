@@ -95,6 +95,12 @@
 ## Pre-Processing and Feature Engineering
 [Back to Top](#back_to_top)
 
+<img src="./images/LocationSizePrice.png" alt="Distribution of the Housing Sale Price" style="height: 310px; width:660px;"/>
+
+#### Figure 1: Distribution of the target: More results coming soon(with summaries)
+   > Left-Sale Price <br>
+   > Right-log( Sale Price )
+
 ***Pre-processing***
 > * Set-up Models
 >* One-hot encode categorical variables

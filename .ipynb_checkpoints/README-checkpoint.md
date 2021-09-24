@@ -65,18 +65,18 @@
 
 * Time was spent searching for null values, dropping outliers, and recognizing the simplest approach was a first model with only integer features.
 
-    **Select Categorical Features from Ames housing Data Set**
-    > 1. Referring to Data Library for definitions of sub-categorical features, follow best judgement for an initial prediction to beat the baseline Null.
-    > 2. Guess and check with boxplots in Notebook 02, returning back to feature selection to adjust paramaters.
-    > 3. I chose the following values initially based on what made sense to me, then following feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
+    **Categorical Feature Selection Methodology**
+    > 1. By referring to the Data Library for definitions of sub-categorical features, we can follow best judgement for an initial prediction to beat the baseline Null.
+    > 2. Successive feature selection was conducted iteratively by adjusting parameters after visualizing feature distributions with box and violin plots in Notebook 02.
+    > 3. feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
     
 <img src="./images/SalePriceHistLog_sns.png" alt="Distribution of the Housing Sale Price" style="height: 310px; width:660px;"/>
 
-#### Figure 1: Distribution of the target: More results coming soon(with summaries)
-   > Left-Sale Price <br>
-   > Right-log( Sale Price )
+#### Figure 1: Distribution of the Target:
+   > Left: Sale Price, 
+   > Right: Log-Level Transformation of Sale Price<br>
+    NOTICE: The distribution approaches Normal following the transfromation
     
-# Notice how the distribution approaches Normal after a log transfromation
 #### EDA
 - Missing Values:
     - Garage Area
@@ -124,11 +124,15 @@
 ## Model Tuning & Assessment
 [Back to Top](#back_to_top)
 
+Various metrics, such as MSE, MAE, and adjusted R-Squared, are displayed for evaluation of four linear regression models. The "regression_metrics()" function streamlines the performance evaluation of each model included for comparison.
+
 <a id='production_model_and_insights'></a>
 
 ---
 ## Production Model & Insights
 [Back to Top](#back_to_top)
+
+Pave your driveway! There are many things to consider when selling your home, and yes size plays a role in the final Sale Price, but there are many things that can be done to improve the value of your home rgardless of size. Installing A/C, investing in quality insulation and heating improve the expected worth of homes in this dataset. Since the sample data were representative of the housing population in Ames at the time, property owners would have benefitted from  fixing them up before selling.
 
 <a id='recommendations_and_next_steps'></a>
 

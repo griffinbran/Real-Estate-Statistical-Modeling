@@ -65,18 +65,18 @@
 
 * Time was spent searching for null values, dropping outliers, and recognizing the simplest approach was a first model with only integer features.
 
-    **Select Categorical Features from Ames housing Data Set**
-    > 1. Referring to Data Library for definitions of sub-categorical features, follow best judgement for an initial prediction to beat the baseline Null.
-    > 2. Guess and check with boxplots in Notebook 02, returning back to feature selection to adjust paramaters.
-    > 3. I chose the following values initially based on what made sense to me, then following feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
+    **Categorical Feature Selection Methodology**
+    > 1. By referring to the Data Library for definitions of sub-categorical features, we can follow best judgement for an initial prediction to beat the baseline Null.
+    > 2. Successive feature selection was conducted iteratively by adjusting parameters after visualizing feature distributions with box and violin plots in Notebook 02.
+    > 3. feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
     
 <img src="./images/SalePriceHistLog_sns.png" alt="Distribution of the Housing Sale Price" style="height: 310px; width:660px;"/>
 
-#### Figure 1: Distribution of the target: More results coming soon(with summaries)
-   > Left-Sale Price <br>
-   > Right-log( Sale Price )
+#### Figure 1: Distribution of the Target:
+   > Left: Sale Price, 
+   > Right: Log-Level Transformation of Sale Price<br>
+    NOTICE: The distribution approaches Normal following the transfromation
     
-# Notice how the distribution approaches Normal after a log transfromation
 #### EDA
 - Missing Values:
     - Garage Area

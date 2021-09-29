@@ -37,12 +37,12 @@
 #### Raw Training Dataset
 
 * [`train.csv`](./data/datasets/train.csv): Journal of Statistics Education ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
-> 2,051 Properties: ~70%
+> 2,051 homes/properties: ~70%
 
 #### Raw Validation Dataset
 
 * [`test.csv`](./data/datasets/test.csv): Journal of Statistics Education ([source](http://jse.amstat.org) | [data dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt))
-> 878 Properties: ~30%
+> 878 homes/properties: ~30%
 
 #### Processed Datasets:
 * [`clean_train.csv`](./data/datasets/test.csv): Subset of train.csv after cleaning in Notebook 01, saved for use in all notebooks.
@@ -65,7 +65,7 @@
 
 * Time was spent searching for null values, dropping outliers, and recognizing the simplest approach was a first model with only integer features.
 
-    **Categorical Feature Selection Methodology**
+    **Feature Selection Methodology**
     > 1. By referring to the Data Library for definitions of sub-categorical features, we can follow best judgement for an initial prediction to beat the baseline Null.
     > 2. Successive feature selection was conducted iteratively by adjusting parameters after visualizing feature distributions with box and violin plots in Notebook 02.
     > 3. feedback from statsmodels in Notebook 03 I interpretted p-values to improve my RMSE computed in Notebook 04
@@ -75,7 +75,7 @@
 #### Figure 1: Distribution of the Target:
    > Left: Sale Price, 
    > Right: Log-Level Transformation of Sale Price<br>
-    NOTICE: The distribution approaches Normal following the transfromation
+    NOTICE: The distribution of Sale Price approaches NORMAL following the transfromation. Q: How much does this improve the model?
     
 #### EDA
 - Missing Values:
@@ -95,12 +95,15 @@
 ## Pre-Processing and Feature Engineering
 [Back to Top](#back_to_top)
 
+<img src="./images/LocationPrice.png" alt="Distribution of the Housing Sale Price" style="height: 310px; width:400px;"/>
+
 <img src="./images/LocationSizePrice_yt_bkgd.png" alt="Distribution of the Housing Sale Price" style="height: 310px; width:400px;"/>
 
-#### Figure 2: Sale Price VS: Greater Living Area, Class of Neighborhood 0, 1, or 2
-   > Green - Class 2: Mean Sale Price (All sales) < 1st Quartile (Class 2) <br>
-   > Orange - Class 1: Mean Sale Price (All sales) > 3rd Quartile (Class 1) <br>
-   > Blue - Class 0: Mean Sale Price (All sales) ~ 2nd Quartile (Class 0 or "other neighborhoods")
+#### Figure 2: Sale Price VS. Greater Living Area
+    -with Neighborhoods grouped into classes and visualized by hue 0(blue), 1(orange), or 2(green)
+   > Class 2: Mean Sale Price (All sales) < 1st Quartile (Class 2) <br>
+   > Class 1: Mean Sale Price (All sales) > 3rd Quartile (Class 1) <br>
+   > Class 0: Mean Sale Price (All sales) ~ 2nd Quartile (Class 0 or "other neighborhoods")
 
 ***Pre-processing***
 > * Set-up Models
